@@ -16,15 +16,6 @@ html , body {
     border-radius: 15px;
 }
 
-#changeToggle {
-    background-color: green;
-    color: white;
-    border-radius: 35px;
-    border: none;
-    margin-left: 10px;
-    padding: 9px;
-}
-
 .info h3 {
     background-color: white;
     border-radius: 10px;

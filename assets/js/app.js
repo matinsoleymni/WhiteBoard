@@ -12,7 +12,7 @@ changeToggle.addEventListener('click' , ()=> {
 whiteBoard.addEventListener('mousemove' , (e)=> {
     let brush = $.createElement('div');
     brush.setAttribute('class' , 'brush');
-    brush.style.top = `${e.y}px`;
+    brush.style.top = `${e.y-75}px`;
     brush.style.left =`${e.x}px`;
     brush.style.backgroundColor = color.value;
     whiteBoard.append(brush)

@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+html , body {
+    overflow: hidden;
+}
+
 .labelinp {
     background-color: white;
     padding: 5px;
@@ -35,5 +39,5 @@
     width: 50px;
     height: 50px;
     position: absolute;
-    border-radius: 5px;
+    border-radius: 50%;
 }
